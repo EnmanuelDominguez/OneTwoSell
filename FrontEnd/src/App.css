@@ -5,7 +5,7 @@
   display: flex;
 }
 .imagen-header{
-  padding: 0px 375px 80px 10px;
+  padding: 0px 370px 80px 10px;
 }
 .header{
   color: white;
@@ -23,6 +23,29 @@
   font-size: 20px;
   background: transparent;
   border: transparent;
+}
+.fondo{
+  opacity: 10%;
+  padding: 40px 10px 10px 100px;
+}
+.texto{
+padding: 5px 100px 2px 0px;
+text-align: center;
+}
+.nosotros{
+  text-align: center;
+  padding: 1px 50px 1px 125px;
+  display: grid;
+  grid-template-columns: 25% 25% 23% 25%;
+}
+.separacion{
+  background-color: rgb(238, 67, 67);
+  padding: 3px;
+}
+h2{
+  text-align: center;
+  margin-left: 500px;
+  width: 500px;
 }
 a {
   color: white;
