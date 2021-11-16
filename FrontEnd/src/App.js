@@ -3,6 +3,7 @@ import './App.css';
 
 function App() {
   return (
+
     <div className="App">
       <header className="App-header">
         <div className="imagen-header">
@@ -16,14 +17,22 @@ function App() {
         </div>
       </header>
       <div className="separacion">
-        
       </div>
       <div className="texto">
         <h2 className="texto">Permitenos ayudarte a expandir el alcance de tu negocio!</h2>
         <div className="nosotros">
-          <p><h3>Los negocios pequeños de la ciudad de Medellín desconocen las oportunidades para dar a conocer su negocio de manera virtual.</h3></p><img src="https://i.imgur.com/gIOTbGZ.png" alt="" height="300px" />
-          <img src="https://i.imgur.com/gIOTbGZ.png" alt="" height="300px" /><p><h3>Permitenos brindarle a tu negocio más alcance y visibilidad a través de nuestro aplicativo mediante recursos virtuales</h3></p>
+          <div className="misionalcance"><img classname="misionalcance" src="https://i.imgur.com/ArZ0p87.png" alt="" height="250px" /><h3>Misión:<br />Brindarle a nuestros usuarios un medio virtual para que logren tener más alcance y visibilidad mediante nuestro aplicativo</h3></div>
+          <div className="misionalcance"><img classname="misionalcance" src="https://i.imgur.com/gIOTbGZ.png" alt="" height="250px" /><h3>Alcance:<br />Permitenos brindarle a tu negocio más alcance y visibilidad a través de nuestro aplicativo mediante recursos virtuales</h3></div>
         </div>
+      </div>
+      <div className="separacion">
+      </div>
+      <div className="footer">
+      <img src="https://www.politecnicojic.edu.co/images/logo/logo-institucion-v.png" alt="" href="/" height="95px"></img>
+      <h5>Proyecto creado por:<br/>
+      Enmanuel Jesus Dominguez Lamazares<br/>
+      Jose Alejandro Lopez Rojas</h5><br/>
+      <a className="conocenos" href="https://denmanuel795.wixsite.com/my-site-2">Conócenos</a>
       </div>
     </div>
   );
