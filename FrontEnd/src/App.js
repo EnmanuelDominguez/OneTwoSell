@@ -1,19 +1,24 @@
+import React from 'react'
 import './App.css';
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"></link>
+import{
+  BrowserRouter as Router,
+  Link
+} from 'react-router-dom'
 
 function App() {
   return (
-
+    <Router>
     <div className="App">
       <header className="App-header">
         <div className="imagen-header">
-          <a href="/">
+          <Link to="/" exact>
             <img src="https://i.imgur.com/LMSTbbQ.png" alt="" href="/" height="80px"></img>
-          </a>
+          </Link>
         </div>
         <img src="https://i.imgur.com/431dd1j.png" alt="" height="80px"></img>
         <div className="header">
-          <button className="botonheader"><a href="/">Iniciar Sesión</a></button>|<button className="botonheader"><a href="/">Registrarse</a></button>
+          <Link to="/login" exact><button className="botonheader">Iniciar Sesión</button></Link>|
+          <Link to="/signup" exact><button className="botonheader">Registrarse</button></Link>
         </div>
       </header>
       <div className="separacion">
@@ -28,13 +33,14 @@ function App() {
       <div className="separacion">
       </div>
       <div className="footer">
-      <img src="https://www.politecnicojic.edu.co/images/logo/logo-institucion-v.png" alt="" href="/" height="95px"></img>
-      <h5>Proyecto creado por:<br/>
-      Enmanuel Jesus Dominguez Lamazares<br/>
-      Jose Alejandro Lopez Rojas</h5><br/>
-      <a className="conocenos" href="https://denmanuel795.wixsite.com/my-site-2">Conócenos</a>
+        <img src="https://www.politecnicojic.edu.co/images/logo/logo-institucion-v.png" alt="" href="/" height="95px"></img>
+        <h5>Proyecto creado por:<br />
+          Enmanuel Jesus Dominguez Lamazares<br />
+          Jose Alejandro Lopez Rojas</h5><br />
+        <a className="conocenos" href="https://denmanuel795.wixsite.com/my-site-2">Conócenos</a>
       </div>
     </div>
+    </Router>
   );
 }
 

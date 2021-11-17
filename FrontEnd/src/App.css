@@ -19,6 +19,7 @@
   color: #61dafb;
 }
 .botonheader{
+  color: white;
   font-size: 20px;
   background: transparent;
   border: transparent;
@@ -45,12 +46,6 @@ h2{
   text-align: center;
   margin-left: 500px;
   width: 500px;
-}
-a {
-  color: white;
-  outline: none;
-  text-decoration: none;
-  padding: 2px 1px 0;
 }
 .misionalcance{
   padding: 1px 50px;
